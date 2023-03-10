@@ -1,0 +1,43 @@
+*{
+
+    
+}
+
+body{
+    background-image: url(../img/hxh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vi;
+    
+}
+
+#usuarios{
+    display: flex;
+    
+}
+
+#normal{
+   height: 90%;
+   width: 90%;
+}
+
+iframe{
+    width: min-content;
+    height: min-content;
+    border: 1px solid #ccc;
+}
+#menu{
+    color: #1111d6;
+    
+}
+#carouselExampleSlidesOnly{
+
+}
+
+.navbar-brand{
+    color:#ff8fa3;
+}
+
+.nav-link{
+    color:#ff8fa3;
+}
+

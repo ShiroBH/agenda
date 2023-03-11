@@ -1,12 +1,9 @@
-*{
 
-    
-}
 
 body{
-    background-image: url(../img/hxh.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vi;
+    background-image: url(../img/background\ \(2\).jpg);
+    background-repeat: repeat;
+    background-size: 100%;
     
 }
 
@@ -14,25 +11,32 @@ body{
     display: flex;
     
 }
-
+article{
+    color: aliceblue;
+    size: 10px;
+}
 #normal{
    height: 90%;
    width: 90%;
 }
 
 iframe{
-    width: min-content;
-    height: min-content;
     border: 1px solid #ccc;
 }
 #menu{
     color: #1111d6;
     
 }
-#carouselExampleSlidesOnly{
 
+#img1{
+    
+
+    height: 920px;
 }
-
+#img2{
+    
+    height: 920px;
+}
 .navbar-brand{
     color:#ff8fa3;
 }

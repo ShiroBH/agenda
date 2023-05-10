@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from agendaapp.views import base
+from agendaapp.views import index,base
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('index/', index, name='index'),
     path('base/', base, name='base'),
 ]
